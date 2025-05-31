@@ -10,17 +10,12 @@
             padding: 0;
             height: 100%;
             overflow: hidden;
+            background-image: url('Tempus.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
         }
-        #video-fondo {
-            position: fixed;
-            right: 0;
-            bottom: 0;
-            min-width: 100%;
-            min-height: 100%;
-            width: auto;
-            height: auto;
-            z-index: -1;
-        }
+        /* El bloque #video-fondo ha sido eliminado */
         #contenido {
             position: relative;
             z-index: 1;
@@ -31,10 +26,12 @@
     </style>
 </head>
 <body>
+    <!--
     <video autoplay muted loop id="video-fondo">
         <source src="https://media.githubusercontent.com/media/Chupytoloco/vide_BTZ/main/btz.mp4" type="video/mp4">
         Tu navegador no soporta la etiqueta de vídeo.
     </video>
+    -->
     <div id="contenido">
         <h1>Contenido sobre el vídeo</h1>
         <p>Este es un ejemplo de contenido que se muestra sobre el vídeo de fondo.</p>

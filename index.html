@@ -1,40 +1,16 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video de Fondo</title>
+    <title>Test Video</title>
     <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            overflow: hidden;
-            background-image: url('Tempus.png');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-        /* El bloque #video-fondo ha sido eliminado */
-        #contenido {
-            position: relative;
-            z-index: 1;
-            color: white;
-            text-align: center;
-            padding-top: 50px; /* Ajusta según sea necesario */
-        }
+        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background-color: black; }
+        video { width: 100%; height: 100%; }
     </style>
 </head>
 <body>
-    <!--
-    <video autoplay muted loop id="video-fondo">
+    <video autoplay muted loop controls>
         <source src="https://media.githubusercontent.com/media/Chupytoloco/vide_BTZ/main/btz.mp4" type="video/mp4">
-        Tu navegador no soporta la etiqueta de vídeo.
+        Tu navegador no soporta la etiqueta de vídeo o el formato.
     </video>
-    -->
-    <div id="contenido">
-        <h1>Contenido sobre el vídeo</h1>
-        <p>Este es un ejemplo de contenido que se muestra sobre el vídeo de fondo.</p>
-    </div>
 </body>
 </html> 

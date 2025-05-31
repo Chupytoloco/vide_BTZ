@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video de Fondo</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        #video-fondo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1;
+        }
+        #contenido {
+            position: relative;
+            z-index: 1;
+            color: white;
+            text-align: center;
+            padding-top: 50px; /* Ajusta según sea necesario */
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="video-fondo">
+        <source src="btz.mp4" type="video/mp4">
+        Tu navegador no soporta la etiqueta de vídeo.
+    </video>
+    <div id="contenido">
+        <h1>Contenido sobre el vídeo</h1>
+        <p>Este es un ejemplo de contenido que se muestra sobre el vídeo de fondo.</p>
+    </div>
+</body>
+</html> 
